@@ -144,7 +144,7 @@ class PreferencesRepository(
      */
     val usePhotoJpegUltraHdr = primitivePreference(
         key = "use_photo_jpeg_ultra_hdr",
-        defaultValue = true,
+        defaultValue = false,
     ).asPreferenceHolder()
 
     /**

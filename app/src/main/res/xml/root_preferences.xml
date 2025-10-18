@@ -65,7 +65,8 @@
             app:title="@string/enable_zsl_title" />
 
         <SwitchPreference
-            app:defaultValue="true"
+            app:defaultValue="false"
+            app:enabled="false"
             app:iconSpaceReserved="false"
             app:key="use_photo_jpeg_ultra_hdr"
             app:summary="@string/use_photo_jpeg_ultra_hdr_summary"
