@@ -101,7 +101,7 @@
         app:title="@string/video_header">
 
         <SwitchPreference
-            app:defaultValue="true"
+            app:defaultValue="false"
             app:iconSpaceReserved="false"
             app:key="video_stabilization"
             app:summary="@string/video_stabilization_summary"

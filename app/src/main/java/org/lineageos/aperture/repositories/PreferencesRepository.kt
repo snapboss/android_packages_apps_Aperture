@@ -302,7 +302,7 @@ class PreferencesRepository(
      */
     val videoStabilization = primitivePreference(
         key = "video_stabilization",
-        defaultValue = true,
+        defaultValue = false,
     ).asPreferenceHolder()
 
     /**
